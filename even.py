@@ -4,7 +4,6 @@ if len(sys.argv)==2:
 numbers = sys.argv[1:]
 even_count=0
 odd_count=0
-for n in numbers:
 else:
     num=int(n)
     if num % 2 ==0
