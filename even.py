@@ -1,6 +1,6 @@
 import sys
 if len(sys.argv) <2:
-  print("Usage: python even_odd_count.py num1 num2 num3....")
+  print("Usage: python "even_odd_count.py" num1 num2 num3....")
     sys.exist(1)
 numbers = sys.argv[1:]
 even_count=0
