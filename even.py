@@ -1,9 +1,8 @@
 import sys
 if len(sys.argv)==2:
  script_name=(sys.argv)[0]
-numbers = sys.argv[1:]
-even_count=0
-odd_count=0
+even_count=sys.argv[1]
+odd_count=sys.argv[2]
 else:
     num=int(n)
     if num % 2 ==0
